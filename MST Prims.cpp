@@ -8,7 +8,7 @@ class prims {
   int graph[ROW][COL], nodes;
   public:
     void createGraph();
-  void primsAlgo();
+    void primsAlgo();
 };
 
 void prims::createGraph() {
