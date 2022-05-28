@@ -47,10 +47,10 @@ public class mergeSort{
         int k = left;   // for arr[k] index (inserting at LowerIndex)
         while(i <= mid && j <= right){
             if(tempMergeArr[i] <= tempMergeArr[j]){
-                arr[k] = tempMergeArr[i];
+                arr[k] = tempMergeArr[i];   //insert in original
                 i++;
             } else {
-                arr[k] = tempMergeArr[j];
+                arr[k] = tempMergeArr[j];   //insert in original
                 j++;
             }
             k++;
